@@ -3,12 +3,14 @@
     <head>
         <title>Project 0 - Search Page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         
         </head>
         <link rel="stylesheet" href="project0style.css">
     </head>
     <body>
+
+         <!-- BANNER -->
         
         <div id="bannercontainer">
             <div class="row">
@@ -18,44 +20,56 @@
                 </div>
             </div>
         </div>
+        <!-- Extra Space -->
         
         <div class="row">
             <div class="col-12">
             </div>
         </div>
     </div>
+
+      <!-- Upper Right corner search Information -->
     <div class="helpfullinkscontainer">
         <div class="row">
             <div class="col-9">
             </div>
             <div class="col-3">
                 <h5>Additional Searches</h5>
-                
+                <i class="material-icons" style="color: deepskyblue;">image_search</i>
                 <a href="imagesearch.html">Google Image Search !</a>
                 <br></br>
+                <i class="material-icons" style="color: deepskyblue">manage_search</i>
                 <a href="advancedsearch.html">Google Advanced Search!</a>
             </div>
         </div>
     </div>
     <br></br>
-    <div id="sinput">
-        <form action="https://www.google.com/search">
+
+
+     <!-- Google search -->
+
+ <div class= "center" id="sinput">
+        <form action="https://www.google.com/search" method=get>
+
             
-            <input  class="icon" id="bar" autocomplete="on" autofocus type="text" name="q" >
-            <br></br>
-            <input  class="button" type="submit" value="Google Search">
-            <input class="button" type="submit" name="btnI" value="I am Feeling Lucky" >
+              
             
-            
+
+            <i style="position:absolute;color:lightgray; padding-top: 10px;" class="material-icons" style="color: deepskyblue;">search</i>
+              <input  id="bar_modern" type="text" name="q"  >
+            <input  class="gbtnmh" type="submit" value="Google Image Search">
+            <input class="gbtnmh" type="submit" name="btnI" value="I am Feeling Lucky" >
+
         </form>
     </div>
-    
+
+    <!-- Footer -->
     <div class=row>
         
         <div  style="bottom:0 ; position: absolute" id=footer >
             
             <div  class="center" >
-                @copyright
+                @copyright MH
             </div>
         </div>
     </div>
