@@ -44,6 +44,7 @@ padding: 10px;
 #sinput{
 text-align: center;
 }
+
 #bar{
 width: 561px;
 height:47.1px;
@@ -68,6 +69,16 @@ border-color: lightgray;
 border-width: 0.5px;
 
 }
+
+/*sourced from geek for geeks*/
+input:hover {
+           
+            box-shadow: 1px 1px 3px rgb(192, 185, 185);
+ 
+            /* You can play with these values to
+            get your desired shadow effect */
+        }
+
 h5 {
 text-align: center;
 color: #999999;
@@ -154,6 +165,7 @@ outline:none;
 
 
 
+
 .gbtnmh{
 
   background-color: #f8f9fa;
@@ -172,6 +184,12 @@ outline:none;
     user-select: none;
    
 }
+
+.gbtnmh:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
 
 
 /* orginal buttton
